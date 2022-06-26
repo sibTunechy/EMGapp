@@ -1,0 +1,125 @@
+.brand-container {
+    background-image: url(../images/blackbggreen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* .brand-container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.9) 100%
+    ),
+    linear-gradient(180deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    transparent 100%);
+    z-index: 2;
+};  */
+
+.brand-wrap {
+    /* border: 5px solid black; */
+    text-align: center;
+    justify-content: center;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 24px;
+    z-index: 3;
+    margin-left: 125px;
+}
+
+.brand-wrap h1 {
+    color: #01FB71 !important;
+    font-size: 48px;
+    text-align: center;
+}
+
+.brand-wrap p {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    /* width: 1100px; */
+    line-height: 190%;
+    margin-top: 24px;
+    text-shadow: 2px -1px;
+}
+
+/* media query */
+@media (max-width: 1200px) {
+    .brand-wrap {
+        max-width: 1100px;
+        margin: auto;
+    }
+    .brand-wrap p {
+        font-size: 22px;
+        
+    }
+}
+
+@media (max-width: 900px) {
+    .brand-wrap {
+        max-width: 800px;
+        margin: auto;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .brand-wrap {
+        max-width: 700px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .brand-wrap {
+        max-width: 550px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .brand-wrap {
+        max-width: 400px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .brand-wrap p {
+        padding: 10px;
+        margin-top: 100px;
+        line-height: 130%;
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .brand-wrap p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .brand-wrap h1 {
+        font-size: 32px;
+    }
+    .brand-wrap p {
+        padding: 10px;
+        margin-top: 100px;
+        line-height: 130%;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+

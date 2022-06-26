@@ -1,0 +1,159 @@
+.about-container {
+    /* border-color: green; */
+    width: 100%;
+    height: 1000px;
+    /* border: 2px solid red; */
+    position: relative;
+    /* z-index: 4; */
+    /* align-items: center;
+    justify-content: center; */
+    /* background: #0c0c0c; */
+    background-image: url(../images/whitelappy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 10%;
+}
+
+.about-container h1 {
+    text-decoration: none;
+    left: 30px;
+    color: #01BF71;
+    /* background-color: green; */
+    justify-content: center;
+    text-align: center;
+    left: -50%;
+}
+
+
+/* .about-container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+    ),
+    linear-gradient(180deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    transparent 100%);
+    z-index: 2;
+} */
+
+.mission-container {
+    padding: 30px 30px 30px 30px;
+}
+
+.mission-container h2 {
+    font-weight: 500px;
+    /* letter-spacing: 3px;
+    line-height: 1.5; */
+    
+}
+
+.mission-container p {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    line-height: 100%;
+    text-shadow: 1px 1px 2px #fff;
+    color: black;
+}
+
+.execution-container {
+    padding: 30px 30px 30px 30px;
+}
+
+.execution-container h2 {
+    font-weight: 500px;
+}
+
+.execution-container p {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    text-shadow: 1px 1px 2px #01BF71;
+    line-height: 100%;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.enterprise-container {
+    padding: 30px 30px 30px 30px;
+}
+
+.enterprise-container h2 {
+    font-weight: 500px;
+    /* text-decoration: underline; */
+}
+
+.enterprise-container p {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    text-shadow: 1px 1px 2px #01BF71;
+    line-height: 100%;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.excellence-container {
+    padding: 30px 30px 30px 30px;
+}
+
+.excellence-container h2 {
+    font-weight: 500px;
+}
+
+
+.excellence-container p {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    text-shadow: 1px 1px 2px #01BF71;
+    line-height: 100%;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 650px){ 
+        .excellence-container p {
+            font-size: 20px;
+        };
+}
+
+@media screen and (max-width: 650px) {
+    .enterprise-container p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .mission-container p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .execution-container p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .about-container p {
+        padding: auto;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .excellence-container {
+        padding-bottom: 50px;
+    }
+}
