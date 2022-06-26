@@ -18,7 +18,7 @@ const HeroSection = () => {
             <VideoBg autoPlay loop muted src={Video} type='video/mp4'/>
         </HeroBg>
         <HeroContent>
-            <HeroH1>Elizabeth Mattew Group</HeroH1>
+            <HeroH1>Elizabeth Matthew Group</HeroH1>
             <HeroP>
                 Sign up for a new account on EMG
             </HeroP>
