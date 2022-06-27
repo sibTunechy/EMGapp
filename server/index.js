@@ -27,7 +27,16 @@ app.get('/', (req, res) => {
 
 // const CONNECTION_URL = 'mongodb+srv://EmgNew:emgpassword.@cluster0.doo3b.mongodb.net/?retryWrites=true&w=majority';
 // const CONNECTION_URL = 'mongodb+srv://EmgNew:emgpassword.@cluster0.doo3b.mongodb.net/?retryWrites=true&w=majority';
-const PORT = process.env.PORT || 5000;
+const host = 'localhost';
+const port = 5000;
+
+// app.listen (process.env.PORT || 5000, function() {
+//     console.log('Express server listening on port', this.address().port, app.settings.env);
+// });
+
+app.listen(port, host, function() {
+    console.log('Server started.....')
+})
 
 mongoose.connect(process.env.CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => app.listen(PORT, () => console.log(`Server running on port: ${PORT}`)))

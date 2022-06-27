@@ -1,10 +1,14 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "EMG App where users can create an account",
   "main": "index.js",
+  "engines": {
+    "node": "16.15.1"
+  },
   "type": "module",
   "scripts": {
+    "dev": "react-scripts start",
     "start": "nodemon index.js"
   },
   "author": "",
