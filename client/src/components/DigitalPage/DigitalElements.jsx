@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from '../../images/Blacksetting.jpg';
+import img from '../../images/pinkandwhite.jpg';
 
 export const DigitalContainer = styled.div`
     color: #fff;
@@ -27,7 +27,7 @@ export const DigitalWrap = styled.div`
 
 export const TopLine = styled.div`
     color: #01bf71;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
@@ -59,9 +59,9 @@ export const Heading = styled.p`
     font-size: 24px;
     max-width: 900px;
     line-height: 180%;
-    text-shadow: 2px 2px green;
+    // text-shadow: 2px 2px black;
     font-weight: 600;
-    color: #fff;
+    color: black;
     margin-bottom: 50px;
 
     @media screen and (max-width : 480px) {
