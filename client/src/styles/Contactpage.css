@@ -17,5 +17,44 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    
+    width: 100%;
+    padding: 0 20px;
 }
+
+.contact-form{
+    max-width: 550px;
+    margin: 0 auto;
+    background-color: #01fb00;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,0.13);
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.input-fields,
+.message {
+    width: 48%;
+}
+
+.input-fields .input,
+.message {
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #01fb00;
+    padding: 10px;
+    color: #01fb00;
+    width: 100%;
+}
+
+.message textarea {
+    height: 212px;
+}
+
+
