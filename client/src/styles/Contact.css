@@ -30,6 +30,7 @@
     font-weight: 10;
     font-size: 50px;
     margin-left: 30px;
+    color: #01fb00 !important;
 }
 
 form {
@@ -75,3 +76,12 @@ form button {
     font-size: 20px;
     cursor: pointer;
 }
+
+@media (max-width: 800px) {
+    .contact {
+        display: grid;
+    }
+    .leftSide {
+        border: 5px solid red;
+    }
+}   
