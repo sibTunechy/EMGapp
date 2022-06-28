@@ -1,9 +1,9 @@
 import React from 'react';
-import { DigitalContainer, DigitalWrap, TopLine, Heading } from '../DigitalPage/DigitalElements';
+import { DigitalContainer, DigitalWrap, TopLine, Heading, Topdiv } from '../DigitalPage/DigitalElements';
 
 function Digital() {
   return (
-    <>
+    <>  <Topdiv></Topdiv>
         <DigitalContainer>
             <DigitalWrap>          
                 <TopLine>Digital Technology</TopLine>

@@ -1,6 +1,11 @@
 import styled from 'styled-components';
 import img from '../../images/pinkandwhite.jpg';
 
+export const Topdiv = styled.div`
+    background-color: #000000;
+    height: 150px;
+`;
+
 export const DigitalContainer = styled.div`
     color: #fff;
     background-image: url('${img}');
