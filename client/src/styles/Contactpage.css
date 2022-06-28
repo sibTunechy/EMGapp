@@ -8,5 +8,14 @@
 }
 
 body {
-    background: url()
+    background: url('../images/telephone.jpg') no-repeat top center;
+    background-size: cover;
+    height: 100vh; /*viewport height*/
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
 }
