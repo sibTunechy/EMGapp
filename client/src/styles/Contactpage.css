@@ -57,4 +57,37 @@ body {
     height: 212px;
 }
 
+::-webkit-input-placeholder {
+    color: #01fb00;
+}
 
+::-moz-input-placeholder {
+    color: #01fb00;
+}
+
+::-ms-input-placeholder {
+    color: #01fb00;
+}
+
+.btn {
+    background: #01fb00;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+    .contact-form {
+        flex-direction: column;
+    }
+    .message textarea {
+        height: 80px;
+    }
+    .input-fields,
+    .message {
+        width: 100%;
+    }
+}
