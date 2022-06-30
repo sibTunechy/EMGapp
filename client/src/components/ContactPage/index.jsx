@@ -4,7 +4,10 @@ import '../../styles/Contactpage.css';
 const ContactPage = () => {
   return (
     <>
-    <div>
+    <div className='topdiv'>
+
+    </div>
+    <div className='wrapper-body'>
         <div className='wrapper'>
             <div className='contact-form'>
                 <div className='input-fields'>

@@ -7,10 +7,10 @@
     font-family: 'Roboto', sans-serif;
 } */
 
-body {
+.wrapper-body {
     background: url('../images/telephone.jpg') no-repeat top center;
     background-size: cover;
-    height: 90vh; /*viewport height*/
+    height: 100vh; /*viewport height*/
 }
 
 .wrapper {
