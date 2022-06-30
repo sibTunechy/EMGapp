@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import '../../styles/Contactpage.css';
 
 const ContactPage = () => {
   return (
     <>
+    <div>
         <div className='wrapper'>
             <div className='contact-form'>
                 <div className='input-fields'>
@@ -17,6 +19,7 @@ const ContactPage = () => {
                 </div>
             </div>
         </div>
+    </div>
     </>
   )
 }

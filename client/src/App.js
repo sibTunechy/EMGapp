@@ -6,7 +6,8 @@ import JoinusPage from './pages/joinus';
 import Moreinfo from './pages/moreinfo';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Contact from './components/Contact';
+// import Contact from './components/Contact';
+import Contactpage from './components/ContactPage';
 // import Aboutus from './components/Aboutus';
 import Sidebar from './components/Sidebar';
 import Digital from './components/DigitalPage';
@@ -35,7 +36,7 @@ function App() {
                 <Route path='/' element={<Home/>}/>
                 <Route path='/joinus' element={<JoinusPage/>}/>
                 <Route path='/moreinfo' element={<Moreinfo/>}/>
-                <Route path='/contactpage' element={<Contact/>}/>
+                <Route path='/contactpage' element={<Contactpage/>}/>
                 {/* <Route path='/aboutus' element={<Aboutus/>}/> */}
                 <Route path='/digital' element={<Digital/>} />
                 <Route path='/fleetpage' element={<Fleet/>}/>

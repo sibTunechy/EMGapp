@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-}
+} */
 
 body {
     background: url('../images/telephone.jpg') no-repeat top center;
     background-size: cover;
-    height: 100vh; /*viewport height*/
+    height: 90vh; /*viewport height*/
 }
 
 .wrapper {
