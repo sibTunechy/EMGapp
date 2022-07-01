@@ -6,7 +6,7 @@ const ContactPage = () => {
   return (
     <>
     <div className='topdiv'>
-
+        <h1>Contact Us</h1>
     </div>
     <div className='wrapper-body'>
         <div className='wrapper'>
