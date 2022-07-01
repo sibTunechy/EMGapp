@@ -13,7 +13,7 @@ const Signin = () => {
         <Container>
             <FormWrap>
                 <Icon to='/'>EMG</Icon>
-                <FormContent> 
+                <FormContent>       
                     {isSignup && (
                         <>
                         <Form action='#'>

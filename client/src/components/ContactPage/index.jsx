@@ -1,5 +1,6 @@
 import React from 'react';
-import '../../styles/Contactpage.css';
+// import '../../styles/Contactpage.css';
+import '../../styles/ContactpageB.css';
 
 const ContactPage = () => {
   return (
@@ -17,7 +18,7 @@ const ContactPage = () => {
                     <input type='text' class='input' placeholder='Subject' />
                 </div>
                 <div className='message'>
-                    <textarea placeholder='Message' ></textarea>\
+                    <textarea placeholder='Message' ></textarea>
                     <div className='btn'>Send</div>
                 </div>
             </div>
