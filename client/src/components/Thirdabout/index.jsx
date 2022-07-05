@@ -44,6 +44,9 @@ const Thirdabout = () => {
                 </p>
                 <img src='https://assets.codepen.io/2301174/icon-calculator.svg' alt='' />
             </div>
+            <div>
+                
+            </div>
         </div> 
     </>
   )
