@@ -48,6 +48,7 @@ export const SidebarMenu = styled.ul`
 
 `;
 
+
 export const SidebarLink = styled(LinkScroll)`
     display: flex;
     align-items: center;
@@ -65,6 +66,7 @@ export const SidebarLink = styled(LinkScroll)`
         transition: 0.2s ease-in-out;
     }
 `;
+
 
 export const SideBtnWrap = styled.div`
     display: flex;
