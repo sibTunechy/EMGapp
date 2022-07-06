@@ -77,15 +77,15 @@ const Auth = () => {
                         <Input name='password' label='Password' handleChange={handleChange} type={showPassword ? 'text' : 'password'} handleShowPassword={handleShowPassword} />
                         { isSignup && <Input name='confirmPassword' label='Repeat Password' handleChange={handleChange} type='password' /> } 
                 </Grid>
-                <Button type='submit' fullWidth variant='contained' color='primary' className={classes.submit}>
+                <Button style={{backgroundColor: '#01bf71'}} type='submit' fullWidth variant='contained' className={classes.submit}>
                     { isSignup ? 'Sign Up' : 'Sign In' }
                 </Button>
                 <GoogleLogin
                     clientId='131223449683-snbif7emtc6r5fnrvjm17gqu23920k0t.apps.googleusercontent.com' // second OAuth ID used here
                     render={(renderProps) => (
-                        <Button 
-                        className={classes.googleButton}
-                        color='primary' 
+                        <Button
+                        style={{backgroundColor: '#0lbf71'}} 
+                        className={classes.googleButton} 
                         fullWidth 
                         onClick={renderProps.onClick}
                         disabled={renderProps.disabled}
@@ -110,8 +110,8 @@ const Auth = () => {
             </form>
         </Paper>
     </Container>
-    {/* <div className='above-footer'>
-    </div> */}
+    <div className='above-footer'>
+    </div>
     </>
   )
 }
