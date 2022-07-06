@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link as LinkScroll} from 'react-scroll';
+import { Link as LinkE} from 'react-scroll';
 import { Link as LinkR} from 'react-router-dom';
 import { FaTimes } from 'react-icons/fa';
 
@@ -49,7 +49,7 @@ export const SidebarMenu = styled.ul`
 `;
 
 
-export const SidebarLink = styled(LinkScroll)`
+export const SidebarLink = styled(LinkE)`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,7 +78,7 @@ export const SidebarRoute = styled(LinkR)`
     background: #01bf71;
     white-space: nowrap;
     padding: 16px 64px;
-    color: 010606;
+    color: #010606;
     font-size: 16px;
     outline: none;
     border: none;
