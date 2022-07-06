@@ -4,7 +4,13 @@ export const Topdiv = styled.div`
     width: 100%;
     background: black;
     height: 180px;
-`
+`;
+
+export const Bottomdiv = styled.div`
+    width: 100%;
+    background: black;
+    height: 180px;
+`;
 
 export const MoreContainer = styled.div`
     background: #0c0c0c;
