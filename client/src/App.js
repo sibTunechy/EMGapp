@@ -26,7 +26,7 @@ function App() {
 
     const toggle = () => {
         setIsOpen(!isOpen);
-    }
+    };
 
     return (
         <Router>
