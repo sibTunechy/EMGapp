@@ -9,7 +9,7 @@ export const Topdiv = styled.div`
 export const Bottomdiv = styled.div`
     width: 100%;
     background: black;
-    height: 180px;
+    height: 100px;
 `;
 
 export const MoreContainer = styled.div`
@@ -114,6 +114,7 @@ export const MoreP = styled.p`
     font-size: 24px;
     text-align: center;
     max-width: 900px;
+    max-height: 900px;
     line-height: 180%;
     text-shadow: 1px -1px;
     // background-color: #01BF71;
@@ -141,6 +142,7 @@ export const MoreP = styled.p`
         // margin-top: 100px;
         line-height: 140%;
         font-size: 19px;
+        padding-bottom: 20px;
     }
 `;
 
