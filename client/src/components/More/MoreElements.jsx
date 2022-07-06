@@ -1,5 +1,11 @@
 import styled from 'styled-components';
 
+export const Topdiv = styled.div`
+    width: 100%;
+    background: black;
+    height: 180px;
+`
+
 export const MoreContainer = styled.div`
     background: #0c0c0c;
     display: flex;
@@ -80,12 +86,12 @@ export const MoreH1 = styled.h1`
     text-align: center;
 
     @media screen and (max-width: 900px) {
-        font-size: 30px;
+        font-size: 48px;
         padding-top: 20px;
     }
 
     @media screen and (max-width: 550px) {
-        font-size: 24px;
+        font-size: 30px;
         padding-top: 50px;
     }
 
