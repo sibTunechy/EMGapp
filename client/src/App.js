@@ -37,15 +37,13 @@ function App() {
                 <Route path='/joinus' element={<JoinusPage/>}/>
                 <Route path='/moreinfo' element={<Moreinfo/>}/>
                 <Route path='/contactpage' element={<Contactpage/>}/>
-                {/* <Route path='/aboutus' element={<Aboutus/>}/> */}
                 <Route path='/digital' element={<Digital/>} />
                 <Route path='/fleetpage' element={<Fleet/>}/>
                 <Route path='/brandpage' element={<Brand/>} />
                 <Route path='/privacypage' element={<Privacy/>} />
                 <Route path='/auth' element={<Auth/>} />
                 <Route path='/welcome' element={<Welcome/>} />
-                {/* <Route path='secondaboutpage' element={<Secabout/>} /> */}
-                <Route path='aboutpage' element={<Thirdabout/>} />
+                <Route path='/aboutpage' element={<Thirdabout/>} />
             </Routes>
             <Footer/>
         </Router>
