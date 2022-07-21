@@ -2,6 +2,15 @@ import React, {useEffect} from 'react';
 import  '../../styles/Welcome.css';
 import { useNavigate } from 'react-router-dom';
 
+// class TopDiv extends React.Component {
+//   render() {
+//     const topstyle = {
+//       backgroundColor: 
+//     }
+//   }
+// }
+
+
 const Welcome = () => {
   let navigate = useNavigate()
   
@@ -17,10 +26,22 @@ const Welcome = () => {
     };
 
   })
+
+  const topstyle = {
+    backgroundColor: 'black',
+    height: '150px',
+    width: '100%'
+  }
+
+  const container = {
+    backgroundColor: 'green',
+    height: '90vh'
+  }
   
   return (
-    <>
-        <div className='welcome-container'>
+    <>  
+        <div style={topstyle} ></div>
+        <div className='welcome-container' style={container} >
             <h1>Welcome {nname}</h1>
         </div>
     </>
