@@ -2,14 +2,6 @@ import React, {useEffect} from 'react';
 import  '../../styles/Welcome.css';
 import { useNavigate } from 'react-router-dom';
 
-// class TopDiv extends React.Component {
-//   render() {
-//     const topstyle = {
-//       backgroundColor: 
-//     }
-//   }
-// }
-
 
 const Welcome = () => {
   let navigate = useNavigate()
