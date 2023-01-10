@@ -10,7 +10,7 @@ function Aboutus() {
             <p>We create personalized, customer-centric experiences, the right technology and people with our solutions deployed across various channels to suit the demography of the target market and analyze the data from our two-way engagement with the market for the strategic use of clients.</p>
         </div>
         <div className='execution-container'>
-            <h2>EXECUTION</h2>
+            <h2>EXECU</h2>
             <p>A strong drive to see things through to completion as quickly, efficiently, and effectively as possible. We believe in the time to see projects through from start to finish in order to get exceptional results.</p>
         </div>
         <div className='enterprise-container'>
