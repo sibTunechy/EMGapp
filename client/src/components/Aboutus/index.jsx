@@ -19,7 +19,7 @@ function Aboutus() {
         </div>
         <div className='excellence-container'>
             <h2>EXCELLENCE</h2>
-            <p>Consistently delivering exceptional results. Every employees's heart beat with the phrase "Excellence". To provide measureable value to our stakeholders, we go above and beyond the ordinary.</p>   
+            <p>Consis delivering exceptional results. Every employees's heart beat with the phrase "Excellence". To provide measureable value to our stakeholders, we go above and beyond the ordinary.</p>   
         </div>
     </div>
   )
