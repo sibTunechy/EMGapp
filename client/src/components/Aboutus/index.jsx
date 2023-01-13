@@ -7,7 +7,7 @@ function Aboutus() {
         <h1>About Us</h1>
         <div className='mission-container'>
             <h2>OUR MISSION</h2>
-            <p> create personalized, customer-centric experiences, the right technology and people with our solutions deployed across various channels to suit the demography of the target market and analyze the data from our two-way engagement with the market for the strategic use of clients.</p>
+            <p>We create personalized, customer-centric experiences, the right technology and people with our solutions deployed across various channels to suit the demography of the target market and analyze the data from our two-way engagement with the market for the strategic use of clients.</p>
         </div>
         <div className='execution-container'>
             <h2>EXECUTION</h2>
