@@ -15,7 +15,7 @@ function Aboutus() {
         </div>
         <div className='enterprise-container'>
             <h2>ENTERPRISE</h2>
-            <p>Having the will and commitment to go to any length to complete a task. What differentiates us in a competitive business atmosphere is our individual and collective duty to own our goals and lead creative projects leading us to achieving them.</p>
+            <p>Having the  and commitment to go to any length to complete a task. What differentiates us in a competitive business atmosphere is our individual and collective duty to own our goals and lead creative projects leading us to achieving them.</p>
         </div>
         <div className='excellence-container'>
             <h2>EXCELLENCE</h2>
