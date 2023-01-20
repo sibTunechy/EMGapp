@@ -11,7 +11,7 @@ function Aboutus() {
         </div>
         <div className='execution-container'>
             <h2>EXECUTION</h2>
-            <p>A strong drive to see things through to  as quickly, efficiently, and effectively as possible. We believe in the time to see projects through from start to finish in order to get exceptional results.</p>
+            <p>A strong drive to see things through to completion as quickly, efficiently, and effectively as possible. We believe in the time to see projects through from start to finish in order to get exceptional results.</p>
         </div>
         <div className='enterprise-container'>
             <h2>ENTERPRISE</h2>
