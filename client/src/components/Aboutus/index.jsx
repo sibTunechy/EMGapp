@@ -14,7 +14,7 @@ function Aboutus() {
             <p>A strong drive to see things through to completion as quickly, efficiently, and effectively as possible. We believe in the time to see projects through from start to finish in order to get exceptional results.</p>
         </div>
         <div className='enterprise-container'>
-            {/* <h2>ENTERPRISE</h2> */}
+            <h2>ENTERPRISE</h2>
             <p>Having the will and commitment to go to any length to complete a task. What differentiates us in a competitive business atmosphere is our individual and collective duty to own our goals and lead creative projects leading us to achieving them.</p>
         </div>
         <div className='excellence-container'>
