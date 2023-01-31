@@ -18,7 +18,7 @@ function Aboutus() {
             <p>Having the will and commitment to go to any length to complete a task. What differentiates us in a competitive business atmosphere is our individual and collective duty to own our goals and lead creative projects leading us to achieving them.</p>
         </div>
         <div className='excellence-container'>
-            {/* <h2>EXCELLENCE</h2> */}
+            <h2>EXCELLENCE</h2>
             <p>Consistently delivering exceptional results. Every employees's heart beat with the phrase "Excellence". To provide measureable value to our stakeholders, we go above and beyond the ordinary.</p>   
         </div>
     </div>
