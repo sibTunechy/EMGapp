@@ -1,5 +1,5 @@
 import React from 'react';
-// import '../../styles/Aboutus.css';
+import '../../styles/Aboutus.css';
 
 function Aboutus() {
   return (
