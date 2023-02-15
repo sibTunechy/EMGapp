@@ -11,6 +11,7 @@ import {
   NavBtn,
   NavBtnLink,
   Link,
+  MyLogo,
 } from "./NavbarElements";
 import { animateScroll as scroll } from "react-scroll";
 import { useNavigate, useLocation } from "react-router-dom";
@@ -73,7 +74,7 @@ const handleLogout = ()=>{
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to="/" onClick={toggleHome}>
-            EMG
+            <MyLogo/>
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <AiOutlineBars />
