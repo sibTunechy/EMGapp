@@ -8,7 +8,7 @@ export const homeObjOne = {
     description: 'We deploy a hybrid of offline and online strategies to ensure intensive communication with stakeholders of our clients. We are currently engaged in various capacities with international and Local clients including Banks, FCMGs, Cooperate and Political Figures driving stakeholder engagement.',
     buttonLabel: 'Learn More',
     imgStart: false,
-    img: require('../../images/svg-9.png'),
+    img: require('../../images/svg-8.png'),
     alt: 'People',
     dark: true,
     primary: true,

@@ -3,7 +3,8 @@ import { DigitalContainer, DigitalWrap, TopLine, Heading, Topdiv } from '../Digi
 
 function Digital() {
   return (
-    <>  <Topdiv></Topdiv>
+    <>  
+    <Topdiv></Topdiv>
         <DigitalContainer>
             <DigitalWrap>          
                 <TopLine>Digital Technology</TopLine>

@@ -2,11 +2,10 @@ import styled from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkC } from 'react-router-dom';
 import { Link as LinkScroll} from 'react-scroll';
-import svg from "../../images/emg.svg";
-
+import svg from '../../images/emg.svg';
 
 export const Nav = styled.nav`
-    background: ${({scrollNav}) => (scrollNav ? '#008000' : 'transparent')};
+    background: ${({scrollNav}) => (scrollNav ? '#008000' : 'transparent')}; // white too is okay with black nav text
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -33,6 +32,18 @@ export const NavbarContainer= styled.div`
     max-width: 1100px;
 `;
 
+export const NavLogo = styled(LinkR)`
+    color: #fff;
+    justify-self: flex-start;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    font-weight: bold;
+    text-decoration: none;
+`;
+
 export const MyLogo = styled.svg`
     width: 100px;
     height: 80px;
@@ -45,18 +56,6 @@ export const MyLogo = styled.svg`
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease;
     }
-`;
-
-export const NavLogo = styled(LinkR)`
-    color: #fff;
-    justify-self: flex-start;
-    cursor: pointer;
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-    margin-left: 24px;
-    font-weight: bold;
-    text-decoration: none;
 `;
 
 export const MobileIcon = styled.ul`

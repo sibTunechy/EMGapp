@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
+import svg from "../../images/removebg.png";
 
 export const FooterContainer = styled.footer`
-    background-color: #101522;
-    // height: 50vh;
+    background-color: #6da832;
+    // height: 50vh ;
 `;
 
 export const FooterWrap = styled.div`
@@ -87,18 +88,35 @@ export const SocialMediaWrap = styled.div`
 
 export const SocialLogo = styled(Link)`
     color: #fff;
-    justify-self: start;
+    justify-self: flex-start;
     cursor: pointer;
-    text-decoration: none;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
+    margin-left: 24px;
     font-weight: bold;
+    text-decoration: none;
+    // border: 5px solid red;
 `;
 
+export const Footlogo = styled.svg`
+    width: 100px;
+    height: 80px;
+    margin: -5px;
+    background-image: url(${svg});
+    transform: scale(4);
+    background-size: contain;
+    // border: 5px solid red;
+    // background-position: center;
+
+    @media screen and (max-width: 960px) {
+        transition: 0.8s all ease;
+    }
+`;
+
+
 export const WebsiteRights = styled.small`
-    color: green;
+    color: black;
     margin-bottom: 16px;
     font-size: 1.1rem;
 `;

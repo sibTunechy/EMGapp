@@ -6,7 +6,7 @@ const Thirdabout = () => {
   return (
     <>  
         <div className='about-div'>
-            <h1>About Us</h1>
+            <h1 className='gradient-text'>About Us</h1>
         </div>
         <div className='row1-container'>
             <div className='box box-down cyan'>

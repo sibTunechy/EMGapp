@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import img from  '../../images/newcars.jpg';
+import img from '../../images/blackbggreen.jpg';
 
 export const Topdiv = styled.div`
     width: 100%;
@@ -7,8 +7,8 @@ export const Topdiv = styled.div`
     height: 80px;
 `;
 
-export const FleetContainer = styled.div`
-    // color: #fff;
+export const BrandContainer = styled.div`
+    color: #fff;
     background-image: linear-gradient(rgba(253, 253, 253, 0.8), rgba(253, 253, 253, 0.2)), url('${img}');
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +19,7 @@ export const FleetContainer = styled.div`
     }
 `;
 
-export const FleetWrap = styled.div`
+export const BrandWrap = styled.div`
     display: grid;
     z-index: 1;
     height: 860px;
@@ -70,22 +70,21 @@ export const Heading = styled.p`
     color: #fff;
     font-size: 24px;
     text-align: center;
-    max-width: 1200px;
-    max-height: 800px;
+    max-width: 900px;
+    max-height: 900px;
     line-height: 190%;
     text-shadow: 1px -1px;
     overflow-y: auto;
     color: black;
+    //background-color: white;
     background: linear-gradient(#d9d9d9, #d9d9d9);
     box-shadow: 0 0 2px #131313, 0 0 2px #131313, 0 0 2px #131313;
     border-radius: 10px;
-
     @media screen and (max-width: 900px) {
         font-size: 22px;
     }
 
     @media screen and (max-width: 768px) {
-        top: -70px;
         // padding: 10px;
         margin-bottom: 100px;
         line-height: 140%;

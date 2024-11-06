@@ -2,8 +2,9 @@ import styled from 'styled-components';
 import img from '../../images/pinkandwhite.jpg';
 
 export const Topdiv = styled.div`
-    background-color: #000000;
-    height: 150px;
+    width: 100%;
+    background: green;
+    height: 80px;
 `;
 
 export const DigitalContainer = styled.div`
@@ -31,48 +32,78 @@ export const DigitalWrap = styled.div`
 `;
 
 export const TopLine = styled.div`
-    color: #01bf71;
-    font-size: 30px;
-    line-height: 16px;
-    font-weight: 700;
-    letter-spacing: 1.4px;
-    text-transform: uppercase;
-    // margin-bottom: 16px;
+    position: relative;
+    // top: -20px;
+    padding-bottom: 250px;
+    font-size: 48px;
+    font-weight: bold;
     text-align: center;
-    padding-top: 150px;
-    // margin-top: 30px;
+    background: linear-gradient(to bottom, #386753 85%, rgb(7, 127, 7) 40%);
+    --webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    letter-spacing: .5px;
 
     @media screen and (max-width: 768px) {
-        padding: 10px;
-        margin-top: 100px;
-        margin-bottom: 50px;
-        // line-height: 140%;
+        top: -70px;
+        padding-bottom: 100px;
+        //margin-top: 100px;
+        //margin-bottom: 50px;
+        //line-height: 140%;
     }
 
     @media screen and (max-width: 480px) {
-        padding: 2px;
-        margin-top: 50px;
-        // line-height: 140%;
+        padding-bottom: 100px;
+       //margin-top: 50px;
+       //line-height: 140%;
         font-size: 25px;
     }
 `;
 
 export const Heading = styled.p`
-    // font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: -24px;
-    text-align: center;
+    position: relative;
+    top: -70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -194px;
+    //margin-bottom: 150px;
+    //padding: 150px;
+    color: #fff;
     font-size: 24px;
+    text-align: center;
     max-width: 900px;
-    line-height: 180%;
-    // text-shadow: 2px 2px black;
-    font-weight: 600;
+    max-height: 900px;
+    line-height: 190%;
+    text-shadow: 1px -1px;
+    overflow-y: auto;
     color: black;
-    margin-bottom: 50px;
+    background-color: white;
+    box-shadow: 0 0 5px green, 0 0 10px green, 0 0 20px green;
 
-    @media screen and (max-width : 480px) {
+    @media screen and (max-width: 900px) {
         font-size: 22px;
-        padding: 10px;
-        margin-top: 20px;
-        line-height: 140%;
     }
+
+    @media screen and (max-width: 768px) {
+        // padding: 10px;
+        margin-bottom: 100px;
+        line-height: 140%;
+        font-size: 24px;
+    }
+
+    @media screen and (max-width: 650px) {
+        padding-top: 50px;
+        font-size: 22px;
+    }
+    @media screen and (max-width: 550px) {
+        font-size: 20px;
+    }
+
+    @media screen and (max-width: 480px) {
+        // padding: 10px;
+        // margin-top: 100px;
+        line-height: 140%;
+        font-size: 19px;
+        padding-bottom: 20px;
+    }
+
 `;

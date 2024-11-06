@@ -18,29 +18,6 @@ body {
     background-color: var(--veryLightGray);
 };
 
-/* .attribution {
-    font-size: 11px; text-align: center;
-} */
-
-/* .attribution a { 
-    color: hsl(228, 45%, 44%); 
-} */
-
-/* h1:first-of-type {
-    font-weight: var(--weight1);
-    color: var(--varyDarkBlue);
-
-} */
-
-/* h1:last-of-type {
-    color: var(--varyDarkBlue);
-}
-
-@media (max-width: 400px) {
-    h1 {
-        font-size: 1.5rem;
-    }
-} */
 
 .header {
     text-align: center;
@@ -57,17 +34,27 @@ body {
 
 .about-div {
     width:100%;
-    background-color: black;
-    height: 180px;
+    background-color: green;
+    height: 90px;
 }
 
 .about-div h1 {
     text-align: center;
-    color: #01FB71;
+    color: black;
     font-size: 50px;
     padding-top: 100px;
-    text-decoration-line: overline;
-    text-decoration-style: solid; 
+    text-decoration-style: solid;     
+}
+
+.gradient-text {
+    background: linear-gradient(to bottom, #386753 85%, rgb(7, 127, 7) 40%);
+    --webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.row1-container {
+    padding-top: 90px;
 }
 
 
@@ -142,6 +129,5 @@ h2 {
     }
     .header p {
         width: 30%;
-    }
-    
+    }    
 }

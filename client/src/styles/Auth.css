@@ -1,11 +1,18 @@
-.signin-top {
-    width:100%;
-    background-color: black;
-    height: 180px;
-};
+.top-bg { 
+    background-color: green;
+    height: 10vh;
+}
 
 .above-footer {
-    width:100%;
-    background-color: red;
-    height: 200px;
-};
+    
+}
+
+.signin-bg {
+    background-image: url('../../../client/src/images/whitelappy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;   
+}

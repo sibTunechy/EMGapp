@@ -13,7 +13,6 @@ function Contact() {
           <h1>Contact Us</h1>
 
           <form contact-form method='POST'>
-
             <label htmlFor='name'>Full Name</label>
             <input name='name' placeholder='Enter Full Name...' type='text' />
             <label htmlFor='email'>Email</label>

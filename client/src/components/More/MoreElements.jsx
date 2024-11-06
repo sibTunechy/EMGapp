@@ -2,14 +2,14 @@ import styled from 'styled-components';
 
 export const Topdiv = styled.div`
     width: 100%;
-    background: black;
-    height: 180px;
+    background: green;
+    height: 80px;
 `;
 
 export const Bottomdiv = styled.div`
     width: 100%;
-    background: black;
-    height: 100px;
+    // background: black;
+    // height: 10px;
 `;
 
 export const MoreContainer = styled.div`
@@ -87,37 +87,56 @@ export const MoreContent = styled.div`
 `;
 
 export const MoreH1 = styled.h1`
-    color: #fff !important;
+    // color: #fff !important;
+    // margin: 0 auto;
+    position: relative;
+    top: -20px;
+    padding-bottom: 250px;
     font-size: 48px;
     text-align: center;
+    background: linear-gradient(to bottom, #386753 85%, rgb(7, 127, 7) 40%);
+    --webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 
     @media screen and (max-width: 900px) {
-        font-size: 48px;
-        padding-top: 20px;
+        //font-size: 48px;
+        //padding-top: 20px;
     }
 
     @media screen and (max-width: 550px) {
-        font-size: 30px;
-        padding-top: 50px;
+        //font-size: 30px;
+        //padding-top: 50px;
     }
 
     @media screen and (max-width: 480px) {
-        font-size: 25px;
-        padding-top: 50px;
+        //font-size: 25px;
+        //padding-top: 50px;
     }
+    // @media screen and (max-width: 300px) {
+    //     font-size: 60px;
+    // }
 `;
 
 export const MoreP = styled.p`
+    position: relative;
+    top: -70px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 24px;
+    margin-top: -164px;
+    // padding: 150px;
     color: #fff;
     font-size: 24px;
     text-align: center;
-    max-width: 900px;
+    max-width: 1200px;
     max-height: 900px;
     line-height: 180%;
     text-shadow: 1px -1px;
-    // background-color: #01BF71;
+    overflow-y: auto;
+    color: black;
+    background-color: white;
+    //box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    //box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px green, 0 0 10px green, 0 0 20px green;
 
     @media screen and (max-width: 900px) {
         font-size: 22px;
